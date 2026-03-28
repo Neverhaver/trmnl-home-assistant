@@ -1,9 +1,8 @@
-name: "TRMNL HA"
+name: "TRMNL HA (Custom)"
 description: "Send dashboard screens to your TRMNL"
 version: "0.7.0"
-slug: "trmnl-ha"
+slug: "trmnl-ha-custom"
 url: "https://github.com/usetrmnl/trmnl-home-assistant"
-image: ghcr.io/usetrmnl/trmnl-ha-{arch}
 # NOTE: Uncomment after setting up Codenotary signing in CI
 # codenotary: dev@usetrmnl.com
 homeassistant_api: true
@@ -23,7 +22,7 @@ ingress_stream: false
 
 # Sidebar integration
 panel_icon: "mdi:monitor"
-panel_title: "TRMNL HA"
+panel_title: "TRMNL HA (Custom)"
 
 # Keep ports for backward compatibility (optional direct access)
 ports:
