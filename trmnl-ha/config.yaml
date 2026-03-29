@@ -1,6 +1,6 @@
 name: "TRMNL HA (Custom)"
 description: "Send dashboard screens to your TRMNL"
-version: "0.7.0"
+version: "0.7.1"
 slug: "trmnl-ha-custom"
 url: "https://github.com/usetrmnl/trmnl-home-assistant"
 # NOTE: Uncomment after setting up Codenotary signing in CI

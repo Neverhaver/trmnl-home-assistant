@@ -47,7 +47,7 @@ export class FloydSteinbergStrategy implements DitheringStrategy {
     if (mode === 'grayscale') {
       if (colors === 2) {
         // Binary (black & white) with error diffusion
-        return image.out('-dither', 'FloydSteinberg').out('-monochrome')
+        return image.out('-dither', 'FloydSteinberg').out('-colors', '2')
       } else if (colors !== undefined && colors > 2) {
         // Multi-level grayscale with error diffusion
         return image
